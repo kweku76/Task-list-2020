@@ -49,7 +49,7 @@ function getTasks() {
 // this function will take in an event object (e)
 function addTask(e) {
     if (taskInput.value === '') {
-        alert('Add a task');
+        alert('To add a task, first give it a description, dude!');
         document.getElementById('addbtn').disabled = true;
     } else {
         document.getElementById('addbtn').disabled = false;
