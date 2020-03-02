@@ -4,3 +4,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+.card {
+    background-color: rgba(255, 255, 255, 0.62);
+    -webkit-transition: -webkit-box-shadow .25s!important;
+}
