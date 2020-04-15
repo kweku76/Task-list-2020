@@ -113,7 +113,7 @@ function storeTaskInLocalStorage(task) {
 //REMOVE TASK 
 function removeTask(e) {
     if (e.target.parentElement.classList.contains('delete-item')) { // if the task list item contains a delete icon...
-        if (confirm('are you sure mate?')) { // confirmation alert if user is sure they want to delete task
+     
 
             e.target.parentElement.parentElement.remove(); //then make sure when the x is clicked on that it's deleted from list. 1st parentElement is the li class="collection-item" , 2nd parentElement is the <a class="delete-item secondary-content">
 
