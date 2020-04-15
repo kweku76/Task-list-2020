@@ -1,10 +1,13 @@
-body {
-  background-image: url('img/jason-thompson-dS3UnDX6InQ-unsplash.jpg');
+html {
+  font-family: sans-serif;
+  background: linear-gradient(180deg, #087c8a, #075d7b);
+  width: 100%;
+  min-height: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+}
+body {
 }
 .card {
-    background-color: rgba(255, 255, 255, 0.62);
-    -webkit-transition: -webkit-box-shadow .25s!important;
+  background-color: rgba(255, 255, 255, 0.62);
+  -webkit-transition: -webkit-box-shadow 0.25s !important;
 }
